@@ -1,0 +1,36 @@
+{"id":"bitcoin","
+symbol":"btc",
+"name":"Bitcoin","
+image":"https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579",
+"current_price":36771,
+"market_cap":695980169888,
+"market_cap_rank":1,
+"fully_diluted_valuation":771353612570,
+"total_volume":16877443392,
+"high_24h":37736,
+"low_24h":36415,
+"price_change_24h":-797.823574519658,
+"price_change_percentage_24h":-2.12361,
+"market_cap_change_24h":-15853980658.385986,
+"market_cap_change_percentage_24h":-2.2272,
+"circulating_supply":18947968.0,
+"total_supply":21000000.0,
+"max_supply":21000000.0,
+"ath":69045,
+"ath_change_percentage":-46.801,
+"ath_date":"2021-11-10T14:24:11.849Z",
+"atl":67.81,
+"atl_change_percentage":54068.50921,
+"atl_date":"2013-07-06T00:00:00.000Z",
+"roi":null,
+"last_updated":"2022-02-03T19:29:38.245Z"},}
+
+const [arr2, setArr2] = useState=(props.arr)
+
+setArr1(   orgArr.sort(  (a,b) => a.id.localeCompare(b.id)    )  )
+
+[res.data.map(x => x), res.data.map(x => x).sort(  (a,b) => a.id.localeCompare(b.id)    )  ]
+
+{app : res.data.map(x => x),
+ bap : res.data.map(x => x).sort(  (a,b) => a.id.localeCompare(b.id)    )
+}
